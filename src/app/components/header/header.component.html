@@ -1,8 +1,13 @@
 <header>
   <nav class="header">
     <div class="header-me">
-      <div class="header-me__name">Эмиль</div>
-      <div class="header-me__soname">Деникаев</div>
+      <a
+        class="header-me__logo"
+        [routerLink]="['/']"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        ><img src="favicon.ico" alt="ICON:logo" class="logo"
+      /></a>
     </div>
     <div class="header-info">
       <a
