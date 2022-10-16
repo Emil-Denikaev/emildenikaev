@@ -1,0 +1,35 @@
+<header>
+  <nav class="header">
+    <div class="header-me">
+      <div class="header-me__name">Эмиль</div>
+      <div class="header-me__soname">Деникаев</div>
+    </div>
+    <div class="header-info">
+      <a
+        class="header-info__main"
+        [routerLink]="['/']"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Главная</a
+      >
+      <a
+        class="header-info__about"
+        [routerLink]="['/about']"
+        routerLinkActive="active"
+        >Обо мне</a
+      >
+      <a
+        class="header-info__resume"
+        [routerLink]="['/resume']"
+        routerLinkActive="active"
+        >Резюме</a
+      >
+      <a
+        class="header-info__contacts"
+        [routerLink]="['/contacts']"
+        routerLinkActive="active"
+        >Контакты</a
+      >
+    </div>
+  </nav>
+</header>

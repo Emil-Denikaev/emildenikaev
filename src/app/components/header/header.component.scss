@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin-right: 10%;
+  margin-left: 10%;
+  .header-me {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: 300px;
+  }
+  .header-info {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+}
+
+.active {
+  color: blue;
+}
