@@ -1,34 +1,16 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1100px;
-  padding: 10px 0;
-  margin-right: 10%;
-  margin-left: 10%;
-  .header-me {
     display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    max-width: 300px;
-    .header-me__logo{
-    display: flex;
-    align-content: center;
-    }
-  }
+    justify-content: center;
+    padding: 10px 0;
   .header-info {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
+    color: #697586;
+    margin-right: 32px;
+  }
+  a:hover {
+    color: #3C2769;
   }
 }
 
 .active {
-  color: blue;
-}
-
-.logo {
-  border-radius: 50%;
-  width: 2rem;
+  color: #6244A3!important;
 }

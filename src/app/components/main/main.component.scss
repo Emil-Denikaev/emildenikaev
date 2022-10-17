@@ -1,35 +1,60 @@
 .wrapper {
   display: flex;
-}
-
-
-.emil {
-
-  width: 32%;
-  padding: 0;
-  margin: 0 auto;
-  cursor: pointer;
-  display: inline-block; /* Строчно-блочный элемент */
-  overflow: hidden; /* Скрываем всё за контуром */
-  padding: 0;
-  border-radius: 25px;
-  .emil__photo{
-    overflow: hidden;
+  background: #EDEBF7;
+  position: absolute;
+  height: calc(100% - 46px);
+  .emil {
+    padding: 0;
+    margin: 0 auto;
+    .emil__photo{
+      height: 100%;
+      width: auto;
+      border-radius: 0px 0px 32px 0px;
+    }
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10%;
+    color: #3C2769;
+    .info__me{
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 67px;
+      margin-bottom: 15px;
+    }
+    .info__frontend{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 15px;
+    }
+    .info__developer{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      margin-bottom: 15px;
+    }
+    .info__follow {
+      background: #CF4D74;
+      border: 1px solid #CF4D74;
+      border-radius: 64px;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      max-width: 160px;
+      font-size: 14px;
+      cursor: pointer;
+    }
   }
 }
 
+
+
+
 .emil img {
-  transition: 1s; /* Время эффекта */
   display: block; /* Убираем небольшой отступ снизу */
 }
-.emil img:hover {
-  transform: scale(1.1); /* Увеличиваем масштаб */
-}
 
-.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  width: 50%;
-}
+
