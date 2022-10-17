@@ -3,7 +3,8 @@
 
 .container{
 	text-align: center;
-	overflow: hidden;
+	overflow-y:hidden; 
+  overflow-x:hidden;
 }
 
 .box:nth-child(2n-1){
