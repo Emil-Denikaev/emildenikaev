@@ -55,23 +55,40 @@
   display: block; /* Убираем небольшой отступ снизу */
 }
 
-
-.info__frontend {
-  animation-duration: 4s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 25%;
-    width: 300%;
+@media (min-width: 867px){
+  .info__frontend {
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
 
-  to {
-    margin-left: 0%;
-    width: 100%;
+  @keyframes slidein {
+    from {
+      margin-left: 25%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
+  
 }
 
+
+
+@media (min-width: 320px) and (max-width:866px) {
+  .wrapper {
+    display: block;
+height: 120%;
+    .emil {
+      .emil__photo {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+
+}

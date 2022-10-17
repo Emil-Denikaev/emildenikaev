@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
   background-color: #fff;
   color: #333;
-  overflow:hidden; 
+
 }
 
 a {
@@ -33,4 +33,9 @@ ul {
 
 img {
   width: 100%;
+}
+@media (min-width: 867px){
+  body {
+    overflow: hidden;
+  }
 }
