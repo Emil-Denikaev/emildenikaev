@@ -1,10 +1,109 @@
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fugit est
-  officiis! Quo consectetur, optio voluptatum cumque saepe quasi nostrum
-  assumenda aut veniam qui quos distinctio soluta magni a odit recusandae? Alias
-  architecto magni minima maxime sequi animi? Quis inventore impedit sapiente
-  vel alias? Placeat sapiente sequi odio reprehenderit incidunt possimus dolore
-  iusto eos commodi! Architecto ducimus quae animi dolore veniam id ipsam ea hic
-  vitae! Perferendis natus, sit quasi esse eius pariatur at distinctio quas
-  impedit tempora hic.
-</p>
+<div class="wrapper">
+  <div class="emil">
+    <img
+      src="assets/img/emil2.jpg"
+      alt="ICON:flower-shop"
+      class="emil__photo"
+    />
+  </div>
+  <div class="info">
+    <div class="info-title info__position">
+      Жизненная позиция:
+      <div class="info-about">
+        Я считаю, что современный человек не имеет права замыкаться в узкой
+        сфере, поэтому с детства меня интересуют разные области знания и
+        деятельности. Я изучал логику и принципы мышления, становился призером в
+        различных соревнованиях по шахматам, находя выход творческим
+        стремлениям, закончил художественную школу с красным дипломом.
+        Углублялся в психологию и принципы восприятия и запоминания информации –
+        так я хотел удержать то, что меня интересует. Я никогда не позволял моим
+        увлечениям конфликтовать с учёбой: занимал призовые места в олимпиадах
+        по физике, математике и информатике. На данный момент углубляюсь в
+        программирование, а особенно мне интересна frontend разработка.
+      </div>
+    </div>
+
+    <div class="info-title">
+      Hard skills:
+      <ul class="info-about">
+        <li>— JavaScript, TypeScript, Angular;</li>
+        <li>— HTML, CSS, препроцессор (SCSS);</li>
+        <li>— Адаптивная, отзывчивая и кроссбраузерная верстка;</li>
+        <li>— Git, GitHub;</li>
+        <li>— Базовое взаимодействие с БД;</li>
+        <li>
+          — C#, Java - базовый синтаксис (чтение кода, небольшие изменения);
+        </li>
+        <li>— Тестирование проделанной работы;</li>
+        <li>— Python – уровень разработки простых telegram-ботов</li>
+        <li>
+          — Другое: Trello, Jira, Web Pack, Notion, Slack, developer tools,
+          Swagger, Figma, Adobe Photoshop, Postman;
+        </li>
+      </ul>
+    </div>
+    <div>
+      <div class="info-title">
+        Soft skills:
+        <ul class="info-about">
+          <li>
+            Стрессоустойчивость, коммуникабельность, обучаемость,
+            наблюдательность и аналитическое мышление.
+          </li>
+          <li>— Уровень английского: Intermediate+ (B1+)</li>
+        </ul>
+      </div>
+
+      <div class="info-title">
+        Опыт работы:
+        <div class="info-about">
+          <div class="info__work">
+            <b> Pet-проекты GitHub: </b>
+            <a
+              href="https://github.com/Emil-Denikaev"
+              target="_blank"
+              class="link info-about__project"
+              >https://github.com/Emil-Denikaev</a
+            >
+          </div>
+          <div class="info__work">
+            <b> Frontend developer</b> <br />
+            Вузопоиск:
+            <a
+              href="https://vuzopoisk.ru/"
+              target="_blank"
+              class="link info-about__project"
+              >https://vuzopoisk.ru/</a
+            >
+
+            <br />
+            Октябрь 2021 – Май 2022 (8 месяцев) <br />
+            Сайт построен на HTML, SCSS, TS, Angular В основном работал над
+            фильтрами, изменял верстку, добавлял поиск, lazy-loading,
+            взаимодействие с backend, переносил функционал со старой версии
+            сайта.
+          </div>
+          <div class="info__work">
+            <b> Фриланс<br /> </b>
+            Июнь 2022 – НВ <br />
+            Создание сайтов на HTML, SCSS, TS, Angular, телеграм-ботов на Python
+          </div>
+        </div>
+      </div>
+
+      <div class="info-title">
+        Образование:
+        <div class="info-about">
+          УлГТУ 2020-2024 Инженерно-Экономический Факультет
+        </div>
+      </div>
+    </div>
+    <button
+      class="info__follow"
+      [routerLink]="['/contacts']"
+      routerLinkActive="active"
+    >
+      Связаться
+    </button>
+  </div>
+</div>

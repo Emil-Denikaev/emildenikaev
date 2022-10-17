@@ -1,0 +1,103 @@
+.wrapper {
+  display: flex;
+  background: #EDEBF7;
+  position: absolute;
+  height: calc(100% - 46px);
+  .emil {
+    padding: 0;
+    margin: 0 auto;
+    .emil__photo{
+      height: 100%;
+      width: auto;
+      border-radius: 0px 0px 32px 0px;
+    }
+  }
+  .info {
+    overflow-y: scroll;
+    margin: 0 0 0 7%;
+    color: #3C2769;
+    .link {
+      color:  #3C2769;
+        &:hover {
+          color: #697586;
+    }
+    }
+    .info-title {
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 15px;
+      margin-right: 15px;
+      
+    }
+    .info__position{
+      margin-top: 25px;
+    }
+    .info-about{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 15px;
+      margin-right: 15px;
+    }
+    .info__work{
+      margin-bottom: 10px;
+    }
+    .info__follow {
+      background: #CF4D74;
+      border: 1px solid #CF4D74;
+      border-radius: 64px;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      max-width: 160px;
+      font-size: 14px;
+      cursor: pointer;
+        margin-bottom: 25px;
+    }
+   
+  }
+}
+
+
+.emil img {
+  display: block; /* Убираем небольшой отступ снизу */
+}
+
+@media (min-width: 867px){
+  .info__frontend {
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 25%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+}
+
+
+
+@media (min-width: 320px) and (max-width:866px) {
+  .wrapper {
+    display: block;
+    height: 120%;
+    .emil {
+      .emil__photo {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+
+}
