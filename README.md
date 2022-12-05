@@ -1,3 +1,9 @@
+Мой маленький сайт, который должен был использоваться как "о себе", но в итоге просто лежит тут
+
+Стек: html, scss, ts , angular 
+
+Можно скопировать проект к себе с помощью git clone, после установить необходимые зависимости npm install, запустить проект с помощью ng serve
+
 # Emildenikaev
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
